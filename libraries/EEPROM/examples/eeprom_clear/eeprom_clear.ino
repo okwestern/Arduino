@@ -16,8 +16,8 @@ void setup() {
   }
 
   // turn the LED on when we're done
-  pinMode(13, OUTPUT);
-  digitalWrite(13, HIGH);
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, LOW);
   EEPROM.end();
 }
 
